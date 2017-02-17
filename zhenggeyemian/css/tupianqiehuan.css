@@ -1,0 +1,44 @@
+*{margin:0;padding:0;}  
+body{font-size:12px;color:#222;font-family:Verdana,Arial,Helvetica,
+	sans-serif;background:#f0f0f0;
+}  
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}  
+.clearfix{zoom:1;}  
+ul,li{list-style:none;}  
+img{border:0;}  
+.wrapper{width:540px;margin:0 auto;
+	position: relative;
+	left: -25px;
+	/*border:1px solid;
+*/
+}  
+h1{height:50px;line-height:50px;font-size:22px;font-weight:normal;font-family:"Microsoft YaHei",SimHei;margin-bottom:20px;}  
+/* focus */  
+#focus{width:540px;height:320px;overflow:hidden;position:relative;top: 2px;
+      }  
+#focus ul{height:380px;position:absolute;}  
+#focus ul li{float:left;width:540px;height:280px;overflow:hidden;position:relative;}  
+#focus ul li div{position:absolute;overflow:hidden;} 
+#focus ul li a img{
+	width: 540px;height: 320px;
+} 
+#focus .btnBg{position:absolute;width:540px;height:20px;left:0;bottom:0;background: #eee}  
+#focus .btn{position:absolute;width:780px;height:40px;right:0;bottom:0;text-align:right;}  
+#focus .btn span{display:inline-block;_display:inline;_zoom:1;
+	width:131px;height:40px;_font-size:0;margin-left:5px;cursor:pointer;
+	background:#e8e8e8;
+	text-align: center; 
+     line-height: 20px;
+}  
+#focus .btn span.on{background:#e8e8e8;}  
+#focus .preNext{width:45px;height:100px;position:absolute;top:90px;background:url(http://sandbox.runjs.cn/uploads/rs/475/xaqlrnnr/sprite.png) no-repeat 0 0;cursor:pointer;}  
+#focus .pre{left:0;}  
+#focus .next{right:0;background-position:right top;} 
+
+.guanggao{
+	color:green;
+}
+.imageMask{
+	
+}
+
